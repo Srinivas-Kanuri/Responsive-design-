@@ -1,0 +1,228 @@
+
+ html{
+ 
+  margin: 0 auto;
+ }
+body{
+  
+  padding: 0px;
+  background-color: #fdf0e1;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-card{
+
+  max-width: 1060px;
+  width: 100%;
+  height: 455px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0px 10px;
+
+}
+.leftedit, .rightedit{
+  flex: 1;
+}
+
+.leftedit{
+  max-width: 100%;
+  padding: 30px 20px 30px 0px;
+ 
+}
+.navbar{
+  width: 100%;
+  font-family: "roboto",sans-serif;
+  margin-bottom: 49px;
+  
+}
+.name{
+  font-family: "inter" ,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  width: 100%;
+}
+h1{
+  font-family: "League Spartan", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  line-height: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 0px;
+  color: #190D37;
+  width: 90%;
+  position: relative;
+}
+.line-image{
+  position: absolute;
+  margin-top: -15px;
+  z-index: -10;
+ 
+}
+
+.info{
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom:20px ;
+  color: #331E6A;
+  width: 100%;
+}
+
+.rightedit{
+ width: 100%;
+ 
+ 
+}
+.imageedit{
+  max-width: 100%;
+  height: auto;
+  border-bottom-right-radius: 120px;
+}
+.cm-button{
+  background-color: black;
+  color: white;
+  padding:12px 24px  ;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-pricing{
+  max-width: 1060px;
+  margin: 48px auto ;
+
+
+ }
+ .pricing{
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color:#2858FF ;
+  margin-bottom: 8px;
+ }
+ .priceinfo{
+  max-width: 700px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif ;
+  font-size: 36px;
+  margin: 8px auto;
+ }
+ .details{
+  text-align: center;
+  max-width: 700px;
+  margin: 8px auto 48px auto;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  color: #190D37;
+ }
+ .price-details{
+  display: flex;
+
+ }
+ .first-price{
+  width: 33.33%;
+ 
+ }
+ .price-card{
+  background-color: white;
+  margin: 0px 10px;
+  border-radius: 10px;
+  box-shadow:6px 2px 25px -9px #000000;
+  padding: 20px;
+ }
+ .service{
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  color: #2858FF;
+ }
+ .price{
+  font-family: "poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 8px;
+ }
+ .price-per-page{
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8A8A8A;
+  line-height: 21px;
+ }
+ .text-info{
+  margin-top: 8px;
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8A8A8A;
+  line-height: 21px;
+ }
+ .data{
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  list-style-type:none;
+  padding: 0;
+  color: #666666;
+ }
+ .data li{
+  margin-bottom: 8px;
+ }
+ 
+ .price-button{
+   width: 100%;
+   height: 100% ;
+   border-radius: 4px;
+   color: #2f2f2f;
+   border-width: 2px;
+   font-size: 16px;
+   font-family: "inten",sans-serif;
+   font-weight: 500;
+   cursor: pointer;
+   padding: 12px  ;
+ }
+ .price-button:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.25s;
+ }
+.card2{
+  background-color: #FFD748;
+
+ }
+ .card2 .service{
+  color: black;
+ }
+ .card2 .data{
+  color: rgba(0, 0, 0, 0.751);
+ }
+ .card2 .price-button{
+  color: white;
+  background-color: black;
+ }
+ .card2 .price-button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 0.25s;
+ }
+ .fotter{
+
+ width: 100%;
+ text-align: center;
+ padding: 20px ;
+ background-color: #000000;
+ color: white;
+ margin-top: 48px;
+ font-family: "poppins", sans-serif;
+ font-size: 12px;
+
+ }
+.checkmark{
+  width: 16px;
+  height: 16px;
+  margin-bottom: -3px;
+  margin-right: 2px;
+}
+ 
