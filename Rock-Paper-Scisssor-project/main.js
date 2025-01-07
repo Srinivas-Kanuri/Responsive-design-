@@ -1,4 +1,4 @@
-let score = JSON.parse(localStorage.getItem('score')) || {wins : 0 , Losses : 0, Ties : 0 };
+let score = JSON.parse(localStorage.getItem('score')) || {wins : 0 ,Losses : 0, Ties : 0 };
     
 upadateScore();
  
@@ -61,7 +61,7 @@ function playGame(playerMove)
 }
 function upadateScore() {
 document.querySelector('.js-score').
-innerHTML = `Wins:${score.wins},Losses:${score.Losses},Tie:${score.Ties}`;
+innerHTML = `Wins:${score.wins}   Losses:${score.Losses}  Tie:${score.Ties}`;
 }
 
   
