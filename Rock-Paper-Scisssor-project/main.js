@@ -8,37 +8,37 @@ function playGame(playerMove)
 
   const computerMove = picComputerMove();
   let result ='';
-  if(playerMove === 'Scissors')
+  if(playerMove === 'scissors')
   {
-    if(computerMove === 'Rock'){
+    if(computerMove === 'rock'){
     result = 'You Lose';
-    } else if( computerMove === 'Paper'){
+    } else if( computerMove === 'paper'){
     result='You Win';
-    }else if( computerMove === 'Scissors'){
+    }else if( computerMove === 'scissors'){
     result = 'Tie';
     }
    
   }
 
-   else if(playerMove === 'Paper')
+   else if(playerMove === 'paper')
   {
-    if(computerMove === 'Rock'){
+    if(computerMove === 'rock'){
     result = 'You Win';
-    } else if( computerMove === 'Paper'){
+    } else if( computerMove === 'paper'){
     result='Tie';
-    }else if( computerMove === 'Scissors'){
+    }else if( computerMove === 'scissors'){
     result = 'You Lose';
     }
    
   }
 
-  else if( playerMove === 'Rock') 
+  else if( playerMove === 'rock') 
   {
-    if(computerMove === 'Rock'){
+    if(computerMove === 'rock'){
     result = 'Tie';
-    } else if( computerMove === 'Paper'){
+    } else if( computerMove === 'paper'){
     result='You Lose';
-    }else if( computerMove === 'Scissors'){
+    }else if( computerMove === 'scissors'){
     result = 'You Win';
     }
   }
@@ -71,11 +71,11 @@ function picComputerMove()
  const randomNumber = Math.random();
 
   if (randomNumber >=0 && randomNumber < 1/3) {
-  computerMove='Rock'; 
+  computerMove='rock'; 
   } else if(randomNumber >= 1/3 && randomNumber < 2/3){
-  computerMove ='Paper';
+  computerMove ='paper';
   }else if (randomNumber >= 2/3 && randomNumber < 1) {
-  computerMove ='Scissors';
+  computerMove ='scissors';
   }
   console.log(computerMove);
   
