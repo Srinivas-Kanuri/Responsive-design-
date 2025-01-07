@@ -5,7 +5,9 @@ body{
   text-align: center;
   
 }
-
+.cover-page-edit{
+  width: 100%;
+}
 .tittle{
   font-size: 50px;
   
