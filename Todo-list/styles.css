@@ -107,12 +107,11 @@ width:100%;
   position: relative;
   cursor: pointer;
 }
-.inputDate,.inputName::placeholder {
-  color: rgba(255, 255, 255, 0.859);
+.inputName::placeholder {
+  color:white;
 
 }
 .inputDate{
-  
   background:url(dropdown.svg);
   background-size: 35px;
   background-repeat: no-repeat;
@@ -133,8 +132,6 @@ opacity: 0;
     width: 90%;
 }
 .todoAddButton{
-  
-   
   padding: 5px;
   font-size: 20px;
   margin: 0;
@@ -146,11 +143,12 @@ opacity: 0;
   margin-top: 5px;
   font-size: 20px;
   padding: 10px 10px;
-  color:antiquewhite;
+  color: white;
   border-radius: 20px;
   background-color: transparent;
   border: 2px solid aqua;
   outline: none;
+
 }
 .out{
   display: flex;
