@@ -133,7 +133,8 @@ opacity: 0;
     width: 90%;
 }
 .todoAddButton{
-  display: flex;
+  
+   
   padding: 5px;
   font-size: 20px;
   margin: 0;
