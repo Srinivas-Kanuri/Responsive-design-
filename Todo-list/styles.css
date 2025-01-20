@@ -38,6 +38,7 @@ width:100%;
 }
 
 .todoAddButton{
+  
   width:100%;
   background-color: aqua;
   border: none;
@@ -129,13 +130,15 @@ opacity: 0;
   .todo-content{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
 .todoAddButton{
+  display: flex;
   padding: 5px;
   font-size: 20px;
   margin: 0;
   margin-top: 5px;
+
 }
 .inputName,.inputDate{
   margin: 0;
