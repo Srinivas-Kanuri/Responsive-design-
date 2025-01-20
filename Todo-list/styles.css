@@ -144,6 +144,9 @@ opacity: 0;
   margin-top: 5px;
   font-size:16px;
 }
+input[type="date"]{
+color:white;
+}
 
 .out{
   display: flex;
