@@ -130,7 +130,7 @@ opacity: 0;
   .todo-content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
 }
 .todoAddButton{
   display: flex;
@@ -145,7 +145,7 @@ opacity: 0;
   margin-top: 5px;
   font-size: 20px;
   padding: 10px 10px;
-
+  color:antiquewhite;
   border-radius: 20px;
   background-color: transparent;
   border: 2px solid aqua;
