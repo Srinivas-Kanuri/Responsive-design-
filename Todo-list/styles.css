@@ -67,7 +67,6 @@ width:100%;
   grid-template-columns:1fr 100px ;
   margin-top: 5px;
   border-radius: 25px;
-  background-color: transparent;
   border: 2px solid aqua;
   align-items: center;
   padding: 5px 5px;
@@ -120,7 +119,7 @@ width:100%;
   
 }
 .inputDate::-webkit-calendar-picker-indicator{
-opacity: 0;
+opacity: 1;
 }
 @media (max-width:500px){
   .main-card{
