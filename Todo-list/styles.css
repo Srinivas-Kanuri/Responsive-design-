@@ -126,17 +126,23 @@ opacity: 0;
     padding: 0px 20px ;
     width: auto;
   }
-  .todo-content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+  .todo-content{  
+  display: grid;
+  grid-template-columns: 1fr ;
+  width:90%;
 }
 .todoAddButton{
   padding: 5px;
   font-size: 20px;
   margin: 0;
   margin-top: 5px;
+}
 
+
+.inputName,.inputDate{
+  margin:0;
+  margin-top: 5px;
+  font-size:16px;
 }
 
 .out{
@@ -145,12 +151,7 @@ opacity: 0;
   align-items: center;
   flex-direction: column;
 }
-.inputName{
-  margin-bottom: 5px;
-}
-.inputName,.inputDate{
-  font-size:16px;
-}
+
 .liitems{
   display: flex;
   flex-direction: column;
