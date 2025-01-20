@@ -112,11 +112,12 @@ width:100%;
 
 }
 .inputDate{
+  
   background:url(dropdown.svg);
   background-size: 35px;
   background-repeat: no-repeat;
   background-position: 97%;
-  outline: none;
+  
 }
 .inputDate::-webkit-calendar-picker-indicator{
 opacity: 0;
@@ -145,7 +146,6 @@ opacity: 0;
   padding: 10px 10px;
   color: white;
   border-radius: 20px;
-  background-color: transparent;
   border: 2px solid aqua;
   outline: none;
 
