@@ -125,18 +125,17 @@ h1{
     margin-left: 0;
   }
 }
-@media (max-width:600px){
+@media (max-width:550px){
   .main-card{
     width: 85%;
   }
   .inputDate{
     flex: 1 0 150px;
   }
- .inputDate::placeholder{
-    appearance: none;
-    color: white ;
+  .flatpickr-input{
+    color: white !important;
     background-color: black;
-    
+    font-size: 16px !important;
   }
   .fullCointainer{
     display: flex;
