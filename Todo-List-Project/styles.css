@@ -44,12 +44,14 @@ h1{
   background: black;
 }
 .inputDate{
+ 
   flex: 1 0 100px;
   padding: 10px 10px;
   border:2px solid aqua;
   border-radius: 20px;
   background: black;
   outline: none;
+
 }
 .todoAddButton{
   flex: 1 0 60px;
@@ -60,7 +62,9 @@ h1{
   color: white;
   border-radius: 20px;
   background-color: rgb(14, 202, 48);
+
 }
+
 .out{
   width: 100%;
   list-style-type: none;
@@ -125,18 +129,11 @@ h1{
     margin-left: 0;
   }
 }
-
+@media (max-width:600px){
   .main-card{
     width: 85%;
   }
-  .inputDate{
-    flex: 1 0 150px;
-  }
-  .flatpickr-input{
-    color: white !important;
-    background-color: black;
-    font-size: 16px !important;
-  }
+
   .fullCointainer{
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +147,6 @@ h1{
     flex: 1 0 50px;
   }
  .delete{
-  flex: 1 0 190px;
-
+  flex: 1 0 100%;
  }
-
+}
