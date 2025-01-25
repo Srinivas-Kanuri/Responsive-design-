@@ -129,6 +129,9 @@ h1{
   .main-card{
     width: 85%;
   }
+  .inputDate{
+    flex: 1 0 150px;
+  }
   input[type="date"]{
     appearance: none;
     color: white;
