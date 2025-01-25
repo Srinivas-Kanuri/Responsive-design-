@@ -20,9 +20,7 @@ h1{
   align-items: center;
   padding:10px 40px;
   max-width: 700px;
-
   margin: 0 auto;
-
 }
 .todo-content{
   display: flex;
@@ -30,7 +28,6 @@ h1{
   flex-wrap: wrap;
   gap: 10px;
   padding: 5px ;
-
 }
 .inputName::placeholder,.inputDate::placeholder{
   color: white;
@@ -133,7 +130,43 @@ h1{
   .main-card{
     width: 80%;
   }
-
+  .todo-content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px ;
+  }
+  .inputName::placeholder,.inputDate::placeholder{
+    color: white;
+  }
+  .inputName{
+    flex: 1 0 190px;
+    border:2px solid aqua;
+    border-radius: 20px;
+    padding: 10px 10px;
+    outline: none;
+    background: black;
+  }
+  .inputDate{
+    flex: 1 0 100px;
+    padding: 10px 10px;
+    border:2px solid aqua;
+    border-radius: 20px;
+    background: black;
+    outline: none;
+  }
+  .todoAddButton{
+    flex: 1 ;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(14, 202, 48);
+  }
+  
   .fullCointainer{
     display: flex;
     flex-wrap: wrap;
