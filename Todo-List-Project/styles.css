@@ -125,7 +125,7 @@ h1{
     margin-left: 0;
   }
 }
-@media (max-width:480px){
+@media (max-width:550px){
   .main-card{
     width: 80%;
   }
