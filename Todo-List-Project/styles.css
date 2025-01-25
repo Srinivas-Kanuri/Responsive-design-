@@ -14,6 +14,7 @@ h1{
   color: white;
 }
 .main-card{
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +31,7 @@ h1{
   padding: 5px ;
 }
 .inputName::placeholder,.inputDate::placeholder{
-  color: white;
+  color: rgb(126, 125, 125);
 }
 .inputName{
   flex: 1 0 190px;
