@@ -1,6 +1,6 @@
 flatpickr("#duedate", {
   dateFormat: "d-m-y", // Match the expected format
-  displaymobile: true, 
+  disableMobile: true, 
   allowInput: false, // Allow manual input
  
 });
