@@ -130,6 +130,7 @@ h1{
     width: 85%;
   }
   input[type="date"]{
+    appearance: none;
     color: white;
     background-color: black;
 
