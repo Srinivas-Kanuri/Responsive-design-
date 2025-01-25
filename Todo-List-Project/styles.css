@@ -139,7 +139,7 @@ h1{
     padding: 5px ;
   }
   .inputName::placeholder,.inputDate::placeholder{
-    color: white;
+    color: rgb(126, 125, 125) !important;
   }
   .inputName{
     flex: 1 0 190px;
@@ -158,9 +158,7 @@ h1{
     outline: none;
     appearance: none;
   }
-  .inputDate::placeholder{
-    color: white !important;
-  }
+ 
   .todoAddButton{
     flex: 1 ;
     padding: 10px 0;

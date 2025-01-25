@@ -1,8 +1,8 @@
 flatpickr("#duedate", {
   dateFormat: "d-m-y", // Match the expected format
-  style: "color: white ; background-color: black",
+  
   allowInput: false, // Allow manual input
-  placeholder:"Select Date",
+ 
 });
 
 
