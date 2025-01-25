@@ -125,7 +125,7 @@ h1{
     margin-left: 0;
   }
 }
-@media (max-width:550px){
+
   .main-card{
     width: 85%;
   }
@@ -150,6 +150,7 @@ h1{
     flex: 1 0 50px;
   }
  .delete{
-  flex: 1 0 100%;
+  flex: 1 0 190px;
+
  }
-}
+
