@@ -156,6 +156,9 @@ h1{
     background: black;
     outline: none;
   }
+  .inputDate::placeholder{
+    color: white !important;
+  }
   .todoAddButton{
     flex: 1 ;
     padding: 10px 0;
