@@ -5,7 +5,7 @@ flatpickr("#duedate", {
  
 });
 
-
+loadData();
 function addTodo() {
    
   const nameInput = document.getElementById("name");
