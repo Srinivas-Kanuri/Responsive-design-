@@ -132,11 +132,11 @@ h1{
   .inputDate{
     flex: 1 0 150px;
   }
-  input[type="date"]{
+ .inputDate::placeholder{
     appearance: none;
-    color: white;
+    color: white ;
     background-color: black;
-
+    
   }
   .fullCointainer{
     display: flex;
