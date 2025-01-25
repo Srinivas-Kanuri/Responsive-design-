@@ -129,6 +129,18 @@ h1{
   .main-card{
     width: 80%;
   }
+  .inputDate{
+    flex: 1 0 100px;
+    padding: 10px 10px;
+    border:2px solid aqua;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    color: white;
+  }
+  .inputDate::placeholder{
+    color: white !important;
+  }
   .fullCointainer{
     display: flex;
     flex-wrap: wrap;
