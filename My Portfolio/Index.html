@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+<div class="main-center-card">
+ <nav class="navbar">
+  <h1>S.K.Portfolio</h1>
+
+  <div class="menu-open" onclick= show();>
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+  </div>
+
+  <div class="menu-close" onclick= show();>
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+  </div>
+    <ul class="list-open">
+      <a href="#about" class="active">About me</a>
+      <a href="#skills">Skills & Tools</a>
+      <a href="#experiance">Experiance</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+    </ul>
+ </nav>
+
+  <!--Hero Section-->
+  <div class="hero-section" id="about">
+    <div class="left-section">
+      <div class="name">Hello, I'm Srinivas Kanuri,<span class="animation-text">Frontend Developer</span></div>
+        <p class="para">I'm a UI/UX and Frontend Developer passionate about crafting user-friendly and visually appealing web experiences. This portfolio website, which I designed and developed myself using Figma, HTML, CSS, and JavaScript, showcases my skills and projects. From wireframing and prototyping in Figma to front-end development, I enjoy the entire process of bringing ideas to life.</p>
+        <a href="Srinivas kanuri - Resume.pdf"  target="_blank"  class="cv-btn">Download CV</a>
+      </div>
+    <div class="right-section">
+      <img src="Balls.svg" class="my-img">
+    </div>
+  </div>
+
+  <!--Skills and tools Section-->
+ <div class="skills-tools" id="skills">
+    <h2 class="h2st"> Skills & Tools</h2>
+      <div class="boxes">
+        <div class="pl-box">
+          <h2 class="pl-head">Programming Languages</h2>
+          <div class="pl-imgs">
+            <div class="pl-img-cont"><img src="icons8-html5.svg"> HTML5</div>
+            <div class="pl-img-cont"><img src="icons8-css3.svg">CSS3</div>
+            <div class="pl-img-cont js"><img src="icons8-javascript.svg">JAVASCRIPT</div>
+          </div>
+        </div>
+       <div class="tt-box">
+          <h2 class="tt-head">Tools & Technologies</h2>
+          <div class="tt-imgs">
+            <div class="tt-img-cont"><img src="GitHub-Mark.png" width="48px" height="48px">GITHUB</div>
+            <div class="tt-img-cont"><img src="icons8-figma.svg">FIGMA</div>
+            <div class="tt-img-cont vs"><img src="icons8-vs-code.svg">VS-CODE</div>
+          </div>
+       </div>
+    </div>
+      <h2 class="h2st">Soft Skills</h2>
+        <ul class="soft">
+          <li class="bullet">Time Management</li>
+          <li class="bullet">Problem-Solving & Debugging</li>
+          <li class="bullet">Agil & Teamwork</li>
+          <li class="bullet">Collabarative & Communication</li> 
+        </ul>
+  </div>
+
+  <!--Experiance Section-->
+  <div class="Experiance" id="experiance">
+    <h2 class="h2exp">Experiance</h2>
+      <div class="exp-box">
+        <div class="top-text-img">
+          <img src="Ellipse 16.svg" class="cms-img">
+          <div class="cp-name">
+          CMS(Cash Management Services)
+          </div>
+        </div>
+        <div>
+          <h3 class="h3">June 2024-Present</h3>
+          <ul class="des-itms">
+            <li> Dedicated to maintaining the highest levels of security and accuracy in cash handling operations at CMS.  </li>
+            <li> Responsible for all aspects of cash processing within a secure vault, including preparation for ATM loading, detailed record-keeping, and execution of CS, CDP, and CRM procedures. </li>
+            <li>Experienced in adhering to strict security protocols and procedures.</li>
+          </ul>
+        </div>
+     </div>
+  </div>
+
+  <!--Projects Section-->
+    <div class="project" id="projects">
+      <h2 class="proj-head">Projects</h1>
+      <div class="projects">
+
+         <div class="proj-1 ">
+           <img class="proj-img" src="rps.png">
+           <h3>Rock-Paper-Scissors Game</h3>
+           <p class="proj-mattr">Created an interactive Rock Paper Scissors game with HTML, CSS, and JavaScript.
+            This project was a great learning experience in building dynamic web applications.</p>
+            <div class="proj-btns">
+              <a href="https://rock-paper-scissor--seven.vercel.app/" target="_blank" class="proj-btn live">Live Preview</a>
+              <a href="https://github.com/Srinivas-Kanuri/Responsive-design-/tree/a6de4063ebe218a19d9a994065f62409a165959c/Rock-Paper-Scisssor-project" target="_blank" class="proj-btn check">Check on GitHub</a>
+            </div>
+         </div>
+
+         <div class="proj-1 proj-2">
+           <img class="proj-img" src="todolist img.jpg">
+           <h3>To-DO List Web</h3>
+           <p class="proj-mattr">Built a to-do list application using HTML, CSS, and JavaScript.  Key features include adding tasks with due dates, deleting tasks, and marking tasks as complete.</p>
+           <div class="proj-btns">
+            <a href="https://responsive-todo-list-eosin.vercel.app/" target="_blank" class="proj-btn live">Live Preview</a>
+            <a  href="https://github.com/Srinivas-Kanuri/Responsive-design-/tree/a6de4063ebe218a19d9a994065f62409a165959c/Rock-Paper-Scisssor-project" target="_blank" class="proj-btn check">Check on GitHub</a>
+          </div>
+         </div>
+
+         <div class="proj-1 proj-3">
+           <img class="proj-img" src="home page.png">
+           <h3>Drive-in cars-rental</h3>
+           <p class="proj-mattr">Designed the UI/UX for a "Drive-In Cars Rental" web application in Figma.
+            Focused on creating a seamless and efficient booking process for car rentals.</p>
+            <div class="proj-btns">
+              <a href="https://www.figma.com/proto/ivCF20wp14TEUzn7G98M4y/Untitled?node-id=14-41661&t=v1qbVHQTLMLhSIdi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" class="proj-btn live">Live Preview</a>
+              <a class="proj-btn check">Check on GitHub</a>
+            </div>
+         </div>
+
+      </div>
+    </div>
+
+    <!--Education-->
+    <div class="Education" id="education">
+       <h2 class="edu-head">Education</h2>
+        <div class="timeline">
+          <div class="event left">
+              <h2>2019</h2>
+              <p>Graduated from Sai Vidyanikethan High School in 2019, earning a grade point average of 8.2 in my secondary school examinations. Successfully completed the requirements for 10th grade, demonstrating academic proficiency.</p>
+          </div>
+          <div class="event right">
+              <h2>2021</h2>
+              <p>Completed Intermediate education at Sri Surya Junior College in 2021, specializing in the MPC (Mathematics, Physics, Chemistry) stream and achieving a grade point average of 6.2.</p>
+          </div>
+          <div class="event left">
+              <h2>2024</h2>
+              <p>Graduated from Aditya Degree College with a Bachelor of Computer Applications (BCA) degree in 2024, achieving a GPA of 8.4.</p>
+          </div>
+          <div class="event right">
+              <h2>Present</h2>
+              <p>Currently pursuing a Master of Computer Applications (MCA) degree at Andhra University, with an expected graduation date of 2026.</p>
+          </div>
+      </div>
+    </div>
+
+    <!--Contact me-->
+    <div class="contact-me">
+      <h2>Contact me</h2>
+      <h3 class="q-o">Feel free to reach out me for any questions  and opportunities!</h3>
+      <div>
+        <ul>
+          <a href="#about">About me</a>
+          <a href="#skills">Skills & Tools</a>
+          <a href="#experiance">Experiance</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+        </ul>
+      </div>
+        <div class="icons">
+         <a href="https://www.linkedin.com/in/srinivas-kanuri-466824297" target="_blank" class="linkedin">
+          <img src="icons8-linkedin-25.png" alt="" >
+         </a> 
+         <a href="mailto:your-email@example.com?subject=Portfolio%20Inquiry&body=Hello%20Srinivas,%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank">
+          <img src="icons8-email-open-25.png" alt="">
+         </a><a href=" https://github.com/Srinivas-Kanuri" target="_blank">
+          <img src="icons8-github-logo-25.png" alt="">
+         </a>
+         <a href="https://www.instagram.com/alone__sr142?igsh=MTZrcjdvYWJiZ3V2bA==" target="_blank">
+          <img src="icons8-instagram-logo-25.png" alt=""></a>
+        </div>
+          <h3>Designed & Developed by Srinivas Kanuri</h3>
+          <h3>© 2025 Srinivas Kanuri. All rights reserved.</h3>
+    </div>
+</div>
+
+
+    <script src="build.js"></script>
+</body>
+</html>
